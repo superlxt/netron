@@ -10806,8 +10806,16 @@
           "type": 7
         },
         {
+          "name": "job_name",
+          "type": 7
+        },
+        {
           "name": "max_outstanding_requests",
           "type": 9
+        },
+        {
+          "name": "iteration_counter",
+          "type": 20
         }
       ],
       "outputs": [
@@ -13100,6 +13108,17 @@
         }
       ],
       "summary": "Draw bounding boxes on a batch of images."
+    }
+  },
+  {
+    "name": "DummyIterationCounter",
+    "schema": {
+      "outputs": [
+        {
+          "name": "handle",
+          "type": 20
+        }
+      ]
     }
   },
   {
